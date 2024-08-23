@@ -1,0 +1,58 @@
+/* author - Deepak Tiwari */
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kalnia Glaze', sans-serif; /* Updated to use only Kalnia Glaze font */
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b8ffc7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.container .tenor-gif-embed {
+  max-width: 200px;
+}
+
+.container .btn {
+  display: flex;
+  gap: 25px;
+}
+
+.btn a {
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 0;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  cursor: pointer;
+  filter: brightness(150%);
+  box-shadow: -5px -5px 30px #5eff80,
+              5px 5px 30px #5eff80;
+}
+
+/* Hover effect */
+.btn a:hover {
+  background-color: #5eff80;
+}
